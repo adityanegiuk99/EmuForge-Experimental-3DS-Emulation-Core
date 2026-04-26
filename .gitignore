@@ -1,0 +1,108 @@
+# Build directories
+build/
+Build/
+cmake-build-debug/
+cmake-build-release/
+cmake-build-*/
+
+# CMake cache and temporary files
+CMakeCache.txt
+CMakeFiles/
+CMakeLists.txt.user
+cmake_install.cmake
+
+# IDE-specific directories
+.vscode/
+.vs/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Compiled files
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.dylib
+*.a
+*.lib
+*.lai
+*.la
+*.lo
+
+# Debug files
+*.dSYM/
+*.su
+*.gch
+*.pch
+
+# Executables and test binaries
+bin/
+lib/
+test_cpu
+test_cpu.exe
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Temporary files
+*.tmp
+*.log
+*.bak
+*.swp
+*.swo
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Ninja build system
+.ninja_deps
+.ninja_log
+compile_commands.json
+
+# Make build system
+Makefile
+.makefile
+
+# Clang tools
+.clang-format
+.clangd
+
+# Coverage files
+*.gcda
+*.gcno
+coverage/
+lcov_report/
+
+# Documentation build output
+docs/_build/
+doxygen_output/
+
+# Misc
+*.orig
+*.patch
+*.diff
